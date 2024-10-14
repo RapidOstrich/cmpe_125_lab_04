@@ -14,6 +14,6 @@ module CLA_4(
     FullAdder instance_2(a[2], b[2], carry[1], g_block[2], p_block[2], sum[2]);
     FullAdder instance_3(a[3], b[3], carry[2], g_block[3], p_block[3], sum[3]);
     
-    CLA_Logic instance_4(g_block, p_block, cin, carry, g_g, g_p);
+    CLA_Logic instance_4(g_block, p_block, cin, carry, g_g, p_g);
 
 endmodule
