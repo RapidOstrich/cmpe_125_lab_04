@@ -1,10 +1,9 @@
 `timescale 1ns / 1ps
 
-module FullAdder(
+module Full_Adder(
     input a, b, cin,
     output reg g, p, sum
 );
-
     
     always @(*) begin
         p = a ^ b;
